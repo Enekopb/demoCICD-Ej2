@@ -9,12 +9,9 @@ jobs:
       security-events: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Ejecutar el codigo
-        run: pytest test.py
+        uses: actions/checkout@v4
         
-      - name: Probar el codigo
+      - name: advanced-security/python-lint-code-scanning-action@v1
         uses: advanced-security/python-lint-code-scanning-action@v1
         with:
           linter: pylint
