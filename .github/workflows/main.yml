@@ -10,6 +10,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
+      - name: Ejecutar el codigo
+        run: pytest test.py
         
       - name: Probar el codigo
         uses: advanced-security/python-lint-code-scanning-action@v1
