@@ -1,3 +1,9 @@
+"""
+Este módulo realiza operaciones de suma.
+
+Puedes proporcionar dos números y obtener su suma como resultado.
+"""
+
 def suma(a, b):
     """
     Suma dos números.
