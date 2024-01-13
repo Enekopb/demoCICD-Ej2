@@ -1,6 +1,6 @@
-def suma(a,b):
-  return a+b
+def suma(A,B):
+  return A+B
   
-a = 2
-b = 3
-print("La suma de 2 y 3 es:" + suma(a,b))
+A = 2
+B = 3
+print("La suma de 2 y 3 es:" + suma(A,B))
